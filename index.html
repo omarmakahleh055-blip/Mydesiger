@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamzeh Makahleh | موقعي الشخصي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #ffffff;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd369;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #ffd369;
+    }
+
+    section p {
+      font-size: 18px;
+      line-height: 1.7;
+      opacity: 0.95;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 15px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #ffd369;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.4);
+      text-align: center;
+      padding: 20px;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    button, .youtube-button {
+      margin-top: 25px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: transform 0.3s, background 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    button {
+      background: #ffd369;
+      color: #333;
+    }
+
+    button:hover {
+      background: #ffb703;
+      transform: scale(1.1);
+    }
+
+    .youtube-button {
+      background: #ff0000;
+      color: white;
+    }
+
+    .youtube-button:hover {
+      background: #cc0000;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hamzeh Makahleh</h1>
+    <p>مرحباً بك في موقعي الشخصي 🌟</p>
+  </header>
+
+  <nav>
+    <a href="#about">عني</a>
+    <a href="#skills">مهاراتي</a>
+    <a href="#projects">مشاريعي</a>
+    <a href="#contact">تواصل معي</a>
+  </nav>
+
+  <section id="about">
+    <h2>من أنا؟</h2>
+    <p>
+      أنا حمزة مكلحله، أحب البرمجة والتصميم وتعلم أشياء جديدة في عالم التقنية.
+      هذا الموقع يعبر عني وعن طموحاتي وأعمالي.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>مهاراتي</h2>
+    <div class="cards">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" style="text-decoration:none;color:inherit;">
+        <div class="card">
+          <h3>HTML</h3>
+          <p>تصميم صفحات ويب جميلة وسريعة.</p>
+        </div>
+      </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" style="text-decoration:none;color:inherit;">
+        <div class="card">
+          <h3>CSS</h3>
+          <p>تنسيق المواقع وإضافة لمسات احترافية.</p>
+        </div>
+      </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" style="text-decoration:none;color:inherit;">
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p>إضافة التفاعل والحركة للمواقع.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>مشاريعي</h2>
+    <p>هنا سأعرض مشاريعي المستقبلية قريباً 🚀</p>
+    <p><a href="https://github.com" target="_blank" style="color:#ffd369;">اضغط هنا لمشاهدة أمثلة مشاريع</a></p>
+    <a href="https://www.youtube.com/@omarmakahleh-d3u" target="_blank" class="youtube-button">شاهد قناتي على يوتيوب ▶️</a>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معي</h2>
+    <p>
+      يمكنك التواصل معي عبر البريد الإلكتروني أو وسائل التواصل الاجتماعي.
+    </p>
+    <p>📧 Email: hamzehmakahleh0@email.com</p>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hamzehmakahleh0@email.com" target="_blank">
+      <button>راسلني</button>
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 جميع الحقوق محفوظة | Hamzeh Makahleh</p>
+  </footer>
+
+</body>
+</html>
